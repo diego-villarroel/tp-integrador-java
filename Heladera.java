@@ -74,7 +74,7 @@ public class Heladera {
         }
     }
 
-    public void consumirLicor(Li lic) {
+    public void consumirLicor(Licor lic) {
         for (Licor l : licores) {
             if(lic.getMarca() == l.getMarca()){
                 if(l.getStock() != 0){
